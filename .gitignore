@@ -1,6 +1,8 @@
-src/node_modules
-src/Archive.zip
+/node_modules
+/src/Archive.zip
+
 npm-debug.log
 
 .DS_Store
 /.idea
+

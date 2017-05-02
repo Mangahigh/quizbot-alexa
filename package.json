@@ -4,7 +4,7 @@
   "description": "Alexa quiz skill",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ../test/quizbotTest"
+    "test": "mocha test/quizbotTest"
   },
   "author": "@ayanit1, @AliceArmstrong, @aleximm1, @Noora-q",
   "license": "Apache-2.0",

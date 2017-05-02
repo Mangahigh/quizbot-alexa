@@ -13,13 +13,11 @@ var expect = chai.expect;
 var server = null;
 var alexa = null;
 
-
-
 beforeEach(function (done) {
-  server = new bst.LambdaServer('index.js', 10000, true);
+  server = new bst.LambdaServer('src/index.js', 10000, true);
   alexa = new bst.BSTAlexa('http://localhost:10000',
-  '../speechAssets/IntentSchema.json',
-  '../speechAssets/Utterances.txt');
+  'speechAssets/IntentSchema.json',
+  'speechAssets/Utterances.txt');
   server.start(function() {
     alexa.start(function (error) {
       if (error !== undefined) {
