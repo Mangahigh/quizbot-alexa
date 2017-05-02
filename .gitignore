@@ -1,5 +1,7 @@
 /node_modules
 /src/Archive.zip
+/dist
+/production.zip
 
 npm-debug.log
 

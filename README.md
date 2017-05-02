@@ -34,7 +34,7 @@ Following [US Census Bureau data](http://voicebot.ai/2017/04/14/gartner-predicts
 Quizbot is an ever-evolving project. We plan to improve its features by adding more categories and subjects, and make a more complex scoring system that takes time answering questions into account. We are also interested in adding a more competitive element by allowing users to play head-to-head, and adding a more detailed and analytical transcript of the quiz on completion so that users can go back and review their previous games to gain better insight on what to improve.
 
 Diagram of Alexa's behaviour:
-![Diagram](/diagram.png)
+![Diagram](docs/diagram.png)
 
 ### User Stories
 
