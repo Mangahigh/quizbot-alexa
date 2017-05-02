@@ -1,3 +1,5 @@
+/*global module:true */
+
 'use strict';
 
 module.exports ={'What is 5 plus 0?': ['5', '6', '2.5', '12'],

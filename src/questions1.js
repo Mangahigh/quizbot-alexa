@@ -1,3 +1,4 @@
+/*global module:true */
 'use strict';
 
 // When editing questions make sure you use question marks or periods.

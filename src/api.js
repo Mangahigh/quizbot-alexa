@@ -1,3 +1,5 @@
+/*global module:true, require:true */
+
 var request = require('request');
 
 module.exports = {};
@@ -10,7 +12,7 @@ var gameId = 24;
  * @param {number}   schoolId
  * @param {number}   studentId
  * @param {string}   password
- * @param {callback} callback
+ * @param {function} callback
  */
 module.exports.login = function (schoolId, studentId, password, callback) {
     var loginJSON = {
@@ -45,8 +47,6 @@ module.exports.getGameSessionId = function (levelId, userSessionId, userId, call
     };
 
     request(gameStartJSON, function (error, response, body) {
-        //console.log(gameStartJSON);
-
         callback(
             body.gamePlayId
         );

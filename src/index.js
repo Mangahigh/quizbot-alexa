@@ -1,3 +1,5 @@
+/*global module:true, require:true */
+
 var Alexa = require('alexa-sdk');
 var request = require('request');
 var api = require('./api.js');
