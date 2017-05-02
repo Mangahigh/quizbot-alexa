@@ -13,8 +13,10 @@ var expect = chai.expect;
 var server = null;
 var alexa = null;
 
+var verboseLogging = false;
+
 beforeEach(function (done) {
-  server = new bst.LambdaServer('src/index.js', 10000, true);
+  server = new bst.LambdaServer('src/index.js', 10000, verboseLogging);
   alexa = new bst.BSTAlexa('http://localhost:10000',
   'speechAssets/IntentSchema.json',
   'speechAssets/Utterances.txt');
